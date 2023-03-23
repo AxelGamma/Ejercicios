@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Dinglemouse {
     public static int kookaCounter(final String laughing) {
@@ -7,7 +8,7 @@ public class Dinglemouse {
         String machoEmbra = " ";
         ArrayList datos = new ArrayList<String>();
 
-        if(laughing.equals("")){
+        if (laughing.equals("")) {
             return 0;
         }
         while (i < laughing.length()) {
@@ -39,7 +40,8 @@ public class Dinglemouse {
     }
 
     public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println(kookaCounter(""));
+        System.out.println(kookaCounter(sc.nextLine()));
     }
 }
