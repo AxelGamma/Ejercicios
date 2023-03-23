@@ -7,6 +7,9 @@ public class Dinglemouse {
         String machoEmbra = " ";
         ArrayList datos = new ArrayList<String>();
 
+        if(laughing.equals("")){
+            return 0;
+        }
         while (i < laughing.length()) {
             if (count < 2) {
                 machoEmbra += laughing.charAt(i);
@@ -37,6 +40,6 @@ public class Dinglemouse {
 
     public static void main(String[] args) throws Exception {
 
-        System.out.println(kookaCounter("HaHaHahahaHaHa"));
+        System.out.println(kookaCounter(""));
     }
 }
