@@ -1,4 +1,4 @@
-## Getting Started
+## Problema
 
 Palíndromo más largo
 Encuentra la longitud de la subcadena más larga de la cadena dada s que es la misma a la inversa.
@@ -7,7 +7,7 @@ Por ejemplo, si la entrada fuera "I like racecars that go fast", la longitud de 
 
 Si la longitud de la cadena de entrada es 0, el valor de retorno debe ser 0.
 
-## Examples
+## Ejemplos
 
 ha = female => 1
 Ha = male => 1
