@@ -1,13 +1,20 @@
-## Problema
+## Getting Started
+Hay una familia de cucaburras en mi patio.
 
-Palíndromo más largo
-Encuentra la longitud de la subcadena más larga de la cadena dada s que es la misma a la inversa.
+No los veo a todos, ¡pero los oigo!
 
-Por ejemplo, si la entrada fuera "I like racecars that go fast", la longitud de la subcadena (racecar) sería 7.
+¿Cuántas cucaburras hay?
 
-Si la longitud de la cadena de entrada es 0, el valor de retorno debe ser 0.
+Sugerencia
+El truco para contar cucaburras es escuchar atentamente
 
-## Ejemplos
+Los machos suenan como HaHaHa...
+
+Las hembras suenan como hahaha...
+
+Y siempre alternan macho/hembra
+
+## Examples
 
 ha = female => 1
 Ha = male => 1
@@ -18,7 +25,6 @@ hahahahahaHaHaHa = female + male => 2
 HaHaHahahaHaHa = male + female + male => 3
 
 ## Casos de prueba
-
     assertEquals(0, Dinglemouse.kookaCounter(""));
     assertEquals(1, Dinglemouse.kookaCounter("hahahahaha"));    
     assertEquals(2, Dinglemouse.kookaCounter("hahahahahaHaHaHa"));    
